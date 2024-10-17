@@ -7,7 +7,7 @@ contract MyERC721 is ERC721URIStorage {
 using Counters for Counters.Counter;
 Counters.Counter private _tokenIds;
 // 0x09532E7cB0E2E2954b503707aeB1Ae2D20f19299
-constructor() ERC721(unicode"suzefeng", "SZF") {}
+constructor() ERC721(unicode"zhoumingxin", "ZMX") {}
 
     function mint(address student, string memory tokenURI) public returns (uint256) {
         _tokenIds.increment();
